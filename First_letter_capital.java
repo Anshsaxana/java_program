@@ -11,6 +11,7 @@ public class First_letter_capital {
     for(int i=0;i<st.length();i++){
       char c = st.charAt(i);
       if(c==' ') {
+        
         result = result +" "+ Character.toUpperCase(st.charAt(i+1));
         i++;
       } else {
