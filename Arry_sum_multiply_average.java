@@ -11,11 +11,9 @@ public class Arry_sum_multiply_average {
             arr[i]=sc.nextInt();
         }
         int sum=0;
+        int num=1;
         for(int i=0;i<arr.length;i++){
             sum +=arr[i];
-        }
-        int num=1;
-        for (int i=0;i<arr.length;i++){
             num *=arr[i];
         }
         int av=(int)sum/arr.length;
