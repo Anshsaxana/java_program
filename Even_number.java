@@ -5,7 +5,7 @@ public class Even_number {
         Scanner scanner=new Scanner(System.in);
           System.out.println ("Enter your number ") ;
         int num= sc.nextInt();
-        for(int i=0;i<=100;i++){
+        for(int i=0;i<=num;i++){
             if (i%2==0) {
                 System.out.println(i);
             }
