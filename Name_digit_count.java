@@ -5,7 +5,7 @@ public class Name_digit_count {
         Scanner sc=new Scanner(System.in);
         String st=sc.nextLine();
         int count=0,
-        num=0,ar,n=0,m=0;
+        num=0,ar,n=0,m=0,s=0;
         for(int i=0;i<st.length();i++){
             char ch = st.charAt(i);
             if (Character.isUpperCase(ch)) {
