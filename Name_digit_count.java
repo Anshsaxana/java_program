@@ -25,7 +25,7 @@ public class Name_digit_count {
         System.out.println("your capital letter=" +count);
         System.out.println("your small letter=" +num);
         System.out.println("your Digit=" +n);
-        System.out.println("your special character=" +m);
+        System.out.println("your space character=" +m);
         System.out.println("Your special characters = " +s);
     }
 }
